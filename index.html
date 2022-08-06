@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+  <div>
+  <section>
+ <h1 id="rangeValue">0</h1>  
+ <input type="range"class="range" min="0" max="100" value="0" onmousemove="rangeSlider(this.value)"
+ onchange="rangeSlider(this.value)">
+</section>
+<script>
+  function  rangeSlider (value){
+ document.getElementById('rangeValue').innerHTML = value;
+
+}
+</script>
+ </div>
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
